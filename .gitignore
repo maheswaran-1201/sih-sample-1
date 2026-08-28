@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js build output
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Environment files & Secrets
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env.local
+frontend/.env*.local
+
+# Logs & System files
+*.log
+.DS_Store
+tunnel.log
