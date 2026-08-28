@@ -1,0 +1,32 @@
+{
+  "model_version": "1.0.0-xgb",
+  "training_date": "2026-08-28 01:28:20",
+  "training_sample_count": 4800,
+  "validation_sample_count": 1200,
+  "feature_names": [
+    "current_speed",
+    "current_delay",
+    "distance_travelled_km",
+    "distance_remaining_km",
+    "distance_to_next_station_km",
+    "scheduled_section_time_min",
+    "scheduled_halt_min",
+    "station_sequence_index",
+    "hist_avg_section_speed",
+    "hist_avg_section_time_min",
+    "hist_delay_recovery_rate",
+    "hour_of_day",
+    "day_of_week",
+    "weather_severity",
+    "track_congestion_level",
+    "speed_restriction_kmh",
+    "signal_delay_min",
+    "extended_halt_min",
+    "train_priority_score"
+  ],
+  "target_name": "future_arrival_delay_minutes",
+  "mae_minutes": 2.7,
+  "rmse_minutes": 3.57,
+  "r2_score": 0.9464,
+  "residuals_std": 3.57
+}
